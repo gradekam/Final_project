@@ -24,4 +24,10 @@ public class ShoppingTests extends SdaBaseTest {
         dressesPage.setSizeFilter("S");
         Assert.assertTrue(driver.findElement(By.cssSelector("span.checked")).isDisplayed());
     }
+
+    @Test
+    public void isRemovingOfItemPossibleFromShoppingCard(){
+
+
+    }
 }
